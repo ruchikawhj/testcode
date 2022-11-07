@@ -81,7 +81,7 @@ function draw() {
         hero.velocityY = 0;
 
         stoneObstaclesGroup.setLifetimeEach(-1);
-        stoneObstaclesGroup.setVelocityEach(0);
+        stoneObstaclesGroup.setVelocityXEach(0);
 
         if (mousePressedOver(restart)) {
             reset();
